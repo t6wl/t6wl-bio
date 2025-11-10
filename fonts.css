@@ -1,0 +1,189 @@
+@font-face { 
+  font-family: 'Bold';
+  src: url('../fonts/PFDinDisplayPro-Bold.ttf');
+}
+
+@font-face { 
+  font-family: 'Light';
+  src: url('../fonts/PFDinDisplayPro-Light.ttf');
+}
+
+@font-face { 
+  font-family: 'Medium';
+  src: url('../fonts/PFDinDisplayPro-Medium.ttf');
+}
+
+@font-face { 
+  font-family: 'Regular';
+  src: url('../fonts/PFDinDisplayPro-Regular.ttf');
+}
+
+@font-face { 
+  font-family: 'PRegular';
+  src: url('../fonts/PFDinTextPro-Regular.ttf');
+}
+
+@font-face { 
+  font-family: 'Black';
+  src: url('../fonts/PFDinDisplayPro-Black.ttf');
+}
+
+.pulseanimation {
+	animation: pulsefromblock 2s ease-in-out infinite;
+}
+
+.translateanimation {
+	animation: translate 2s ease-in-out infinite;
+}
+
+.steam {
+  background: rgba(33, 159, 212, 0.1);
+}
+.steam:hover {
+  background: rgba(33, 159, 212, 1);
+  box-shadow: 0 0.41667vw 1.25vw rgba(33, 159, 212, 0.25);
+}
+.twitter {
+  background: rgba(255, 255, 255, 0.1);
+}
+.twitter:hover {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 0.41667vw 1.25vw rgba(255, 255, 255, 0.25);
+}
+.onlyfans {
+  background: rgba(0, 174, 239, 0.1);
+}
+.onlyfans:hover {
+  background: rgba(0, 174, 239, 1);
+  box-shadow: 0 0.41667vw 1.25vw rgba(0, 174, 239, 0.25);
+}
+.pornhub {
+  background: rgba(249, 152, 31, 0.1);
+}
+.pornhub:hover {
+  background: rgba(249, 152, 31, 1);
+  box-shadow: 0 0.41667vw 1.25vw rgba(249, 152, 31, 0.25);
+}
+.paypal {
+  background: rgba(0, 133, 204, 0.1);
+}
+.paypal:hover {
+  background: rgba(0, 133, 204, 1);
+  box-shadow: 0 0.41667vw 1.25vw rgba(0, 133, 204, 0.25);
+}
+.kick {
+  background: rgba(83, 252, 25, 0.1);
+}
+.kick:hover {
+  background: rgb(6, 38, 219);
+  box-shadow: 0 0.41667vw 1.25vw rgba(83, 252, 25, 0.25);
+}
+.snapchat {
+  background: rgba(255, 250, 0, 0.1);
+}
+.snapchat:hover {
+  background: rgba(255, 250, 0, 1);
+  box-shadow: 0 0.41667vw 1.25vw rgba(255, 250, 0, 0.25);
+}
+.telegram {
+  background: rgba(25, 155, 223, 0.1);
+}
+.telegram:hover {
+  background: rgba(25, 155, 223, 1);
+  box-shadow: 0 0.41667vw 1.25vw rgba(25, 155, 223, 0.25);
+}
+.tiktok {
+  background: rgba(254, 44, 85, 0.1);
+}
+.tiktok:hover {
+  background: rgba(254, 44, 85, 1);
+  box-shadow: 0 0.41667vw 1.25vw rgba(254, 44, 85, 0.25);
+}
+.behance {
+  background: rgba(0, 45, 220, 0.1);
+}
+.behance:hover {
+  background: rgba(0, 45, 220, 1);
+  box-shadow: 0 0.41667vw 1.25vw rgba(0, 45, 220, 1);
+}
+.row_name span:first-child {
+  background-size: 100% 100%;
+  margin-right: auto;
+}
+
+@media (min-width: 2560px) {
+  .steam {
+      background: rgba(33, 159, 212, 0.1);
+  }
+  .steam:hover {
+      background: rgba(33, 159, 212, 1);
+      box-shadow: 0 0.7407vh 2.2222vh rgba(33, 159, 212, 0.25);
+  }
+  .twitter {
+      background: rgba(255, 255, 255, 0.1);
+  }
+  .twitter:hover {
+      background: rgba(255, 255, 255, 1);
+      box-shadow: 0 0.7407vh 2.2222vh rgba(255, 255, 255, 0.25);
+  }
+  .onlyfans {
+      background: rgba(0, 174, 239, 0.1);
+  }
+  .onlyfans:hover {
+      background: rgba(0, 174, 239, 1);
+      box-shadow: 0 0.7407vh 2.2222vh rgba(0, 174, 239, 0.25);
+  }
+  .pornhub {
+      background: rgba(249, 152, 31, 0.1);
+  }
+  .pornhub:hover {
+      background: rgba(249, 152, 31, 1);
+      box-shadow: 0 0.7407vh 2.2222vh rgba(249, 152, 31, 0.25);
+  }
+  .paypal {
+      background: rgba(0, 133, 204, 0.1);
+  }
+  .paypal:hover {
+      background: rgba(0, 133, 204, 1);
+      box-shadow: 0 0.7407vh 2.2222vh rgba(0, 133, 204, 0.25);
+  }
+  .kick {
+      background: rgba(83, 252, 25, 0.1);
+  }
+  .kick:hover {
+      background: rgb(3, 79, 165);
+      box-shadow: 0 0.7407vh 2.2222vh rgba(83, 252, 25, 0.25);
+  }
+  .snapchat {
+      background: rgba(255, 250, 0, 0.1);
+  }
+  .snapchat:hover {
+      background: rgba(255, 250, 0, 1);
+      box-shadow: 0 0.7407vh 2.2222vh rgba(255, 250, 0, 0.25);
+  }
+  .telegram {
+      background: rgba(25, 155, 223, 0.1);
+  }
+  .telegram:hover {
+      background: rgba(25, 155, 223, 1);
+      box-shadow: 0 0.7407vh 2.2222vh rgba(25, 155, 223, 0.25);
+  }
+  .tiktok {
+      background: rgba(254, 44, 85, 0.1);
+  }
+  .tiktok:hover {
+      background: rgba(254, 44, 85, 1);
+      box-shadow: 0 0.7407vh 2.2222vh rgba(254, 44, 85, 0.25);
+  }
+  .behance {
+      background: rgba(0, 45, 220, 0.1);
+  }
+  .behance:hover {
+      background: rgba(0, 45, 220, 1);
+      box-shadow: 0 0.7407vh 2.2222vh rgba(0, 45, 220, 1);
+  }
+  .row_name span:first-child {
+      background-size: 100% 100%;
+      margin-right: auto;
+  }
+}
